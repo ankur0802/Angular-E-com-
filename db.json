@@ -1,0 +1,46 @@
+{
+  "seller": [
+    {
+      "name": "test name",
+      "email": "test@gmail.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "name": "test name2",
+      "email": "test2@gmail.com",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "name": "Breanna Reynolds",
+      "password": "Pa$$w0rd!",
+      "email": "gykabulu@mailinator.com",
+      "id": 3
+    },
+    {
+      "name": "Breanna Reynolds",
+      "password": "Pa$$w0rd!",
+      "email": "gykabulu@mailinator.com",
+      "id": 4
+    },
+    {
+      "name": "Sophia Guzman",
+      "password": "Pa$$w0rd!",
+      "email": "fugige@mailinator.com",
+      "id": 5
+    },
+    {
+      "name": "Ila Potter",
+      "password": "Pa$$w0rd!",
+      "email": "vifujijohe@mailinator.com",
+      "id": 6
+    },
+    {
+      "name": "Shoshana Snyder",
+      "password": "Pa$$w0rd!",
+      "email": "ryqi@mailinator.com",
+      "id": 7
+    }
+  ]
+}
