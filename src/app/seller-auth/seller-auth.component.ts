@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { SellerService } from '../services/seller.service';
 import { Router } from '@angular/router';
-import { SignUp } from '../data-type';
+import { login, SignUp } from '../data-type';
 
 @Component({
   selector: 'app-seller-auth',
@@ -12,17 +12,23 @@ export class SellerAuthComponent {
 
   constructor(private seller:SellerService, private router:Router){}
   
-  ngOnInit():void{}
+  ngOnInit():void{
+    this.seller.reloadSeller()
+  }
+  showlogin = false;
 
   signUp(data:SignUp):void{
-    // console.log(data);
-    this.seller.userSignUp(data).subscribe((result)=>{
-      if(result){
-        this.router.navigate(['seller-home'])
-      }
-      
-    })
+    this.seller.sellerSignUp(data)
+  }
+  buttonToggle(){
+    this.showlogin = !this.showlogin
 
   }
+  login(data:login):void{
+    // this.seller.sellerLogin(data)
+
+  }
+
+
 
 }
