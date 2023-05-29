@@ -11,139 +11,44 @@
       "email": "test2@gmail.com",
       "password": "12345",
       "id": 2
+    }
+  ],
+  "products": [
+    {
+      "name": "Uma Warner",
+      "price": "636",
+      "category": "Rerum labore aliquam",
+      "color": "In ut est cumque deb",
+      "description": "Nam esse est eum ne",
+      "image": "Quidem et sit sapie",
+      "id": 1
     },
     {
-      "name": "Breanna Reynolds",
-      "password": "Pa$$w0rd!",
-      "email": "gykabulu@mailinator.com",
+      "name": "Kylynn Wyatt",
+      "price": "261",
+      "category": "Minima ipsam ex sit ",
+      "color": "Qui eu neque quibusd",
+      "description": "Lorem officiis atque",
+      "image": "Dolorem voluptates n",
+      "id": 2
+    },
+    {
+      "name": "Denise Young",
+      "price": "541",
+      "category": "Sit impedit at odio",
+      "color": "Et aliqua Temporibu",
+      "description": "Elit maiores et dol",
+      "image": "Voluptatem quis mole",
       "id": 3
     },
     {
-      "name": "Breanna Reynolds",
-      "password": "Pa$$w0rd!",
-      "email": "gykabulu@mailinator.com",
+      "name": "Nathan Baird",
+      "price": "912",
+      "category": "Ut soluta nisi rerum",
+      "color": "Neque id nostrud nul",
+      "description": "Sit vero alias anim",
+      "image": "Autem sed et ea rati",
       "id": 4
-    },
-    {
-      "name": "Sophia Guzman",
-      "password": "Pa$$w0rd!",
-      "email": "fugige@mailinator.com",
-      "id": 5
-    },
-    {
-      "name": "Ila Potter",
-      "password": "Pa$$w0rd!",
-      "email": "vifujijohe@mailinator.com",
-      "id": 6
-    },
-    {
-      "name": "Shoshana Snyder",
-      "password": "Pa$$w0rd!",
-      "email": "ryqi@mailinator.com",
-      "id": 7
-    },
-    {
-      "name": "Wyatt Gibson",
-      "password": "Pa$$w0rd!",
-      "email": "piwife@mailinator.com",
-      "id": 8
-    },
-    {
-      "name": "Stephen Perkins",
-      "password": "Pa$$w0rd!",
-      "email": "vybar@mailinator.com",
-      "id": 9
-    },
-    {
-      "name": "Rebecca Diaz",
-      "password": "Pa$$w0rd!",
-      "email": "momaza@mailinator.com",
-      "id": 10
-    },
-    {
-      "name": "Amela Grimes",
-      "password": "Pa$$w0rd!",
-      "email": "dugaremure@mailinator.com",
-      "id": 11
-    },
-    {
-      "name": "Kasper Salinas",
-      "password": "Pa$$w0rd!",
-      "email": "sexanipicu@mailinator.com",
-      "id": 12
-    },
-    {
-      "name": "Ivana Winters",
-      "password": "Pa$$w0rd!",
-      "email": "wusywidofa@mailinator.com",
-      "id": 13
-    },
-    {
-      "name": "Azalia Ferrell",
-      "password": "Pa$$w0rd!",
-      "email": "qypi@mailinator.com",
-      "id": 14
-    },
-    {
-      "name": "Reese Waller",
-      "password": "Pa$$w0rd!",
-      "email": "huki@mailinator.com",
-      "id": 15
-    },
-    {
-      "name": "Teagan Daniels",
-      "password": "Pa$$w0rd!",
-      "email": "beban@mailinator.com",
-      "id": 16
-    },
-    {
-      "email": "hinatob@mailinator.com",
-      "password": "Pa$$w0rd!",
-      "id": 17
-    },
-    {
-      "email": "piwife@mailinator.com",
-      "password": "Pa$$w0rd!",
-      "id": 18
-    },
-    {
-      "email": "piwife@mailinator.com",
-      "password": "Pa$$w0rd!",
-      "id": 19
-    },
-    {
-      "email": "piwife@mailinator.com",
-      "password": "Pa$$w0rd!",
-      "id": 20
-    },
-    {
-      "email": "vifujijohe@mailinator.com",
-      "password": "Pa$$w0rd!",
-      "id": 21
-    },
-    {
-      "name": "Tasha Kaufman",
-      "password": "Pa$$w0rd!",
-      "email": "qeqakano@mailinator.com",
-      "id": 22
-    },
-    {
-      "name": "Robin Nielsen",
-      "password": "Pa$$w0rd!",
-      "email": "risek@mailinator.com",
-      "id": 23
-    },
-    {
-      "name": "Quon Warner",
-      "password": "Pa$$w0rd!",
-      "email": "kuba@mailinator.com",
-      "id": 24
-    },
-    {
-      "name": "Herman Goff",
-      "password": "Pa$$w0rd!",
-      "email": "xijiq@mailinator.com",
-      "id": 25
     }
   ]
 }
