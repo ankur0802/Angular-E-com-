@@ -138,6 +138,12 @@
       "password": "Pa$$w0rd!",
       "email": "kuba@mailinator.com",
       "id": 24
+    },
+    {
+      "name": "Herman Goff",
+      "password": "Pa$$w0rd!",
+      "email": "xijiq@mailinator.com",
+      "id": 25
     }
   ]
 }

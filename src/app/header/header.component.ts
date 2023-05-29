@@ -22,7 +22,7 @@ export class HeaderComponent {
           this.menuType = 'seller';
           if(localStorage.getItem('seller')){
             let sellerInfo = localStorage.getItem('seller');
-            let sellerData = sellerInfo && JSON.parse(sellerInfo)
+            let sellerData = sellerInfo && JSON.parse(sellerInfo);
             this.sellerName = sellerData.name
           }
         }else{
