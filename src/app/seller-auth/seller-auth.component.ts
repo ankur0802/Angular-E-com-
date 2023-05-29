@@ -31,9 +31,7 @@ export class SellerAuthComponent {
     this.seller.isLoginError.subscribe((isError)=>{
       if(isError){
         this.authError = 'Email or password is not correct';
-
       }
-
     })
 
   }
