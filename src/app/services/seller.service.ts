@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { EventEmitter, Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { login, SignUp } from '../data-type';
 import { BehaviorSubject } from 'rxjs';
@@ -13,7 +13,8 @@ import { CookieService } from 'ngx-cookie-service';
 export class SellerService {
   constructor(private http: HttpClient, private router:Router, private cookieService: CookieService) {}
 
-  isSellerLoggedIn = new BehaviorSubject <boolean> (false)
+  isSellerLoggedIn = new BehaviorSubject <boolean> (false);
+  isLoginError = new EventEmitter<boolean>(false);
 
   cookie = this.cookieService;
   
@@ -30,12 +31,7 @@ export class SellerService {
       localStorage.setItem('seller', JSON.stringify(result.body))
 
       this.isSellerLoggedIn.next(true)
-      const loc = window.location;
-      if (loc.hostname === 'localhost' || loc.hostname === 'localhost') {
-         this.cookieService.set('token', 'abc' );
-      } else {
-         this.cookieService.set('token', 'aaa');
-      }
+       
       if(result){
         this.router.navigate(['/seller-home'])
       }
@@ -50,27 +46,27 @@ export class SellerService {
   }
 
 
-  // sellerLogin(data:login){
+  sellerLogin(data:login){
 
-  //   this.http.get(`http://localhost:3000/seller?email=${data.email}&password=${data.password}`)
-  
-  //   this.http.post('http://localhost:3000/seller',
-  //   data,
-  //    {
-  //    observe: 'response',
-  //  }
-  //  ).subscribe((result)=>{
+    this.http.get(`http://localhost:3000/seller?email=${data.email}&password=${data.password}`, { observe: 'response'  },
+ 
+   ).subscribe((result:any)=>{
 
-  //    localStorage.setItem('seller', JSON.stringify(result.body))
+    if(result && result.body && result.body.length){
+      console.log('seller logged in');
+      
+      localStorage.setItem('seller', JSON.stringify(result.body))
+      this.router.navigate(['seller-home'])
 
-  //    this.isSellerLoggedIn.next(true)
-  //    if(result){
-  //      this.router.navigate(['/seller-home'])
-  //    }
-  //  })
+    }else{
+      console.log('login fail');
+      this.isLoginError.emit(true)
+      
+    }
+   })
     
 
-  // }
+  }
 
 
 }

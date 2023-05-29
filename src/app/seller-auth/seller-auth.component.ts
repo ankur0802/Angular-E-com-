@@ -16,6 +16,7 @@ export class SellerAuthComponent {
     this.seller.reloadSeller()
   }
   showlogin = false;
+  authError:String = '';
 
   signUp(data:SignUp):void{
     this.seller.sellerSignUp(data)
@@ -25,7 +26,15 @@ export class SellerAuthComponent {
 
   }
   login(data:login):void{
-    // this.seller.sellerLogin(data)
+    this.authError = ''
+    this.seller.sellerLogin(data)
+    this.seller.isLoginError.subscribe((isError)=>{
+      if(isError){
+        this.authError = 'Email or password is not correct';
+
+      }
+
+    })
 
   }
 
