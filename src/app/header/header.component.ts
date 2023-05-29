@@ -11,7 +11,8 @@ export class HeaderComponent {
   constructor (private route:Router){
 
   }
-  menuType:String = 'default';
+  menuType:string = 'default';
+  sellerName:string = '';
 
   ngOnInit():void{
     this.route.events.subscribe((val:any)=>{
@@ -19,15 +20,21 @@ export class HeaderComponent {
       if(val.url){
         if(localStorage.getItem('seller') && val.url.includes('seller')){
           this.menuType = 'seller';
+          if(localStorage.getItem('seller')){
+            let sellerInfo = localStorage.getItem('seller');
+            let sellerData = sellerInfo && JSON.parse(sellerInfo)
+            this.sellerName = sellerData.name
+          }
         }else{
           this.menuType = 'default';
         }
       }
-      
-
     })
-
   }
    
+  logout(){
+    localStorage.removeItem('seller');
+    this.route.navigate(['/'])
+  }
 
 }

@@ -120,6 +120,24 @@
       "email": "vifujijohe@mailinator.com",
       "password": "Pa$$w0rd!",
       "id": 21
+    },
+    {
+      "name": "Tasha Kaufman",
+      "password": "Pa$$w0rd!",
+      "email": "qeqakano@mailinator.com",
+      "id": 22
+    },
+    {
+      "name": "Robin Nielsen",
+      "password": "Pa$$w0rd!",
+      "email": "risek@mailinator.com",
+      "id": 23
+    },
+    {
+      "name": "Quon Warner",
+      "password": "Pa$$w0rd!",
+      "email": "kuba@mailinator.com",
+      "id": 24
     }
   ]
 }
