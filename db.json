@@ -11,6 +11,12 @@
       "email": "test2@gmail.com",
       "password": "12345",
       "id": 2
+    },
+    {
+      "name": "Germaine Hyde",
+      "password": "Pa$$w0rd!",
+      "email": "lywicuvase@mailinator.com",
+      "id": 3
     }
   ],
   "products": [
@@ -20,7 +26,7 @@
       "category": "Rerum labore aliquam",
       "color": "In ut est cumque deb",
       "description": "Nam esse est eum ne",
-      "image": "Quidem et sit sapie",
+      "image": "https://pixabay.com/photos/mobile-phone-smartphone-1875813/",
       "id": 1
     },
     {
@@ -29,7 +35,7 @@
       "category": "Minima ipsam ex sit ",
       "color": "Qui eu neque quibusd",
       "description": "Lorem officiis atque",
-      "image": "Dolorem voluptates n",
+      "image": "https://pixabay.com/photos/mobile-phone-smartphone-1875813/",
       "id": 2
     },
     {
@@ -38,7 +44,7 @@
       "category": "Sit impedit at odio",
       "color": "Et aliqua Temporibu",
       "description": "Elit maiores et dol",
-      "image": "Voluptatem quis mole",
+      "image": "https://pixabay.com/photos/mobile-phone-smartphone-1875813/",
       "id": 3
     },
     {
@@ -47,7 +53,7 @@
       "category": "Ut soluta nisi rerum",
       "color": "Neque id nostrud nul",
       "description": "Sit vero alias anim",
-      "image": "Autem sed et ea rati",
+      "image": "https://pixabay.com/photos/mobile-phone-smartphone-1875813/",
       "id": 4
     }
   ]

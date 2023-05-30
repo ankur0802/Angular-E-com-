@@ -23,7 +23,6 @@ export class SellerAddProductComponent {
     setTimeout(() => {
       this.addProductMessage=undefined
     }, 3000);
-
   }
 
 }
