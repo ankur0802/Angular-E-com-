@@ -21,6 +21,7 @@ export class SellerAuthComponent {
   signUp(data:SignUp):void{
     this.seller.sellerSignUp(data)
   }
+  
   buttonToggle(){
     this.showlogin = !this.showlogin
 

@@ -17,12 +17,18 @@
       "password": "Pa$$w0rd!",
       "email": "lywicuvase@mailinator.com",
       "id": 3
+    },
+    {
+      "name": "Cullen Abbott",
+      "password": "Pa$$w0rd!",
+      "email": "koku@mailinator.com",
+      "id": 4
     }
   ],
   "products": [
     {
       "name": "Uma Warner",
-      "price": "636",
+      "price": "6",
       "category": "Rerum labore aliquam",
       "color": "In ut est cumque deb",
       "description": "Nam esse est eum ne",
@@ -30,31 +36,13 @@
       "id": 1
     },
     {
-      "name": "Kylynn Wyatt",
-      "price": "261",
-      "category": "Minima ipsam ex sit ",
-      "color": "Qui eu neque quibusd",
-      "description": "Lorem officiis atque",
+      "name": "Uma Warner",
+      "price": "636e",
+      "category": "Rerum labore aliquam",
+      "color": "In ut est cumque deb",
+      "description": "Nam esse est eum ne",
       "image": "https://pixabay.com/photos/mobile-phone-smartphone-1875813/",
       "id": 2
-    },
-    {
-      "name": "Denise Young",
-      "price": "541",
-      "category": "Sit impedit at odio",
-      "color": "Et aliqua Temporibu",
-      "description": "Elit maiores et dol",
-      "image": "https://pixabay.com/photos/mobile-phone-smartphone-1875813/",
-      "id": 3
-    },
-    {
-      "name": "Nathan Baird",
-      "price": "912",
-      "category": "Ut soluta nisi rerum",
-      "color": "Neque id nostrud nul",
-      "description": "Sit vero alias anim",
-      "image": "https://pixabay.com/photos/mobile-phone-smartphone-1875813/",
-      "id": 4
     }
   ]
 }
