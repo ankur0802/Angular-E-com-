@@ -61,7 +61,6 @@ export class SellerService {
     }else{
       console.log('login fail');
       this.isLoginError.emit(true)
-      
     }
    })
     

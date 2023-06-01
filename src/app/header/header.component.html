@@ -1,11 +1,11 @@
-<nav class="nav">
-  <h1><a routerLink="/">E-COMM</a></h1>
+<nav class="nav  w-[100vw]  ">
+  <h1 class=""><a routerLink="/">LOGO</a></h1>
   <div *ngIf = "menuType === 'default'" class="nav-search">
     <input type="text " placeholder="Search" />
     <button>Search</button>
   </div>
 
- <div [ngSwitch]="menuType">
+ <div [ngSwitch]="menuType" >
   <ul *ngSwitchCase="'default'">
     <li><a routerLink="/"> Home </a></li>
     <li><a routerLink="/seller-auth"> Seller </a></li>

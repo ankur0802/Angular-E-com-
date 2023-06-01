@@ -23,17 +23,59 @@
       "password": "Pa$$w0rd!",
       "email": "koku@mailinator.com",
       "id": 4
+    },
+    {
+      "name": "Urielle Santos",
+      "password": "Pa$$w0rd!",
+      "email": "zahafufu@mailinator.com",
+      "id": 5
+    },
+    {
+      "name": "Ella Good",
+      "password": "Pa$$w0rd!",
+      "email": "nilexoc@mailinator.com",
+      "id": 6
+    },
+    {
+      "name": "Wynne Burks",
+      "password": "Pa$$w0rd!",
+      "email": "jahi@mailinator.com",
+      "id": 7
+    },
+    {
+      "name": "Katelyn Callahan",
+      "password": "Pa$$w0rd!",
+      "email": "biseso@mailinator.com",
+      "id": 8
     }
   ],
   "products": [
     {
       "name": "Uma Warner",
-      "price": "6",
+      "price": "633221",
       "category": "Rerum labore aliquam",
       "color": "In ut est cumque deb",
       "description": "Nam esse est eum ne",
-      "image": "https://pixabay.com/photos/mobile-phone-smartphone-1875813/",
+      "image": "https://picsum.photos/id/984/900/500",
       "id": 1
+    },
+    {
+      "name": "Uma Warner",
+      "price": "633221",
+      "category": "Rerum labore aliquam",
+      "color": "In ut est cumque deb",
+      "description": "Nam esse est eum ne",
+      "image": "https://picsum.photos/id/984/900/500",
+      "id": 2
+    },
+    {
+      "name": "Uma Warner",
+      "price": "633221",
+      "category": "Rerum labore aliquam",
+      "color": "In ut est cumque deb",
+      "description": "Nam esse est eum ne",
+      "image": "https://picsum.photos/id/984/900/500",
+      "id": 3
     },
     {
       "name": "Uma Warner",
@@ -41,8 +83,62 @@
       "category": "Rerum labore aliquam",
       "color": "In ut est cumque deb",
       "description": "Nam esse est eum ne",
-      "image": "https://pixabay.com/photos/mobile-phone-smartphone-1875813/",
-      "id": 2
+      "image": "https://picsum.photos/id/984/900/500",
+      "id": 4
+    },
+    {
+      "name": "Uma Warner",
+      "price": "636e",
+      "category": "Rerum labore aliquam",
+      "color": "In ut est cumque deb",
+      "description": "Nam esse est eum ne",
+      "image": "https://picsum.photos/id/984/900/500",
+      "id": 5
+    },
+    {
+      "name": "Uma Warner",
+      "price": "636e",
+      "category": "Rerum labore aliquam",
+      "color": "In ut est cumque deb",
+      "description": "Nam esse est eum ne",
+      "image": "https://picsum.photos/id/984/900/500",
+      "id": 6
+    },
+    {
+      "name": "Uma Warner",
+      "price": "636e",
+      "category": "Rerum labore aliquam",
+      "color": "In ut est cumque deb",
+      "description": "Nam esse est eum ne",
+      "image": "https://picsum.photos/id/984/900/500",
+      "id": 7
+    },
+    {
+      "name": "Uma Warner",
+      "price": "636e",
+      "category": "Rerum labore aliquam",
+      "color": "In ut est cumque deb",
+      "description": "Nam esse est eum ne",
+      "image": "https://picsum.photos/id/984/900/500",
+      "id": 8
+    },
+    {
+      "name": "Uma Warner",
+      "price": "636e",
+      "category": "Rerum labore aliquam",
+      "color": "In ut est cumque deb",
+      "description": "Nam esse est eum ne",
+      "image": "https://picsum.photos/id/984/900/500",
+      "id": 9
+    },
+    {
+      "name": "Uma Warner",
+      "price": "636e",
+      "category": "Rerum labore aliquam",
+      "color": "In ut est cumque deb",
+      "description": "Nam esse est eum ne",
+      "image": "https://picsum.photos/id/984/900/500",
+      "id": 10
     }
   ]
 }

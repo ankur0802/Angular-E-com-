@@ -1,19 +1,22 @@
 .nav {
     display: flex;
     justify-content: space-between;
+    width: 100vw;
   }
   
   .nav h1 {
     color: blueviolet;
     margin: 0;
-    font-size: 40px;
+    font-size: 35px;
+     
   }
   .nav .nav-search {
-    flex: 1;
+    flex: auto;
     display: flex;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5px;
+    margin-bottom: 5px;
   }
   
   .nav .nav-search input {
