@@ -1,7 +1,7 @@
 <ngb-carousel *ngIf="popularpro" class="w-[100vw]">
 	<ng-template *ngFor="let item of popularpro"  ngbSlide >
 		<div class="picsum-img-wrapper">
-			<img src="{{item.image}}" alt="Random first slide" class="w-full h-[90vh] pl-5" />
+			<img src="{{item.image}}" alt="Random first slide" class="w-full h-[90vh] p-[4px] " />
 		</div>
 		<div class="carousel-caption">
 			<h3>{{item.name}}</h3>
@@ -10,10 +10,13 @@
 	</ng-template>
  
 </ngb-carousel>
+
+ 
+
 <h1 class="flex justify-center text-blue-700 m-10 font-bold text-2xl mb-2">
     Trending Products
 </h1>
-<div *ngIf="productlist" class="flex    flex-row flex-wrap overflow-auto w-[100vw] pl-5">
+<div *ngIf="productlist" class="flex    flex-row flex-wrap overflow-auto w-[100vw] ">
 
 
 <div *ngFor="let item of productlist" class="max-w-[300px] rounded overflow-visible  shadow-xl  justify-center border-b-2 border-black-300 mx-[7px] transition-all hover:transform-cpu">

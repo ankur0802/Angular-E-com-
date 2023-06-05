@@ -1,11 +1,17 @@
-<nav class="nav  w-[100vw]  ">
-  <h1 class=""><a routerLink="/">LOGO</a></h1>
+<nav class="nav w-[100vw] flex justify-between p-[4px] mr-2">
+  <h1 class="text-violet-900  "><a routerLink="/">LOGO</a></h1>
   <div *ngIf = "menuType === 'default'" class="nav-search">
-    <input type="text " placeholder="Search" />
-    <button>Search</button>
+    <input type="text " #searchval  (keyup)="search($event)" (blur)="hidesearch()" placeholder="Search" />
+    <button (click)="submitSearch(searchval.value)" >Search</button>
+
+    <ul class="searchitem" *ngIf="searchResult">
+      <li *ngFor="let item of searchResult" class=" border-s-orange-100 border-emerald-100"  >
+        <a href="#" class="cursor-pointer text-blue-400">{{item.name}}</a>
+      </li>
+    </ul>
   </div>
 
- <div [ngSwitch]="menuType" >
+ <div [ngSwitch]="menuType" class="pr-4">
   <ul *ngSwitchCase="'default'">
     <li><a routerLink="/"> Home </a></li>
     <li><a routerLink="/seller-auth"> Seller </a></li>

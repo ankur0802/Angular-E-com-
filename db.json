@@ -47,98 +47,50 @@
       "password": "Pa$$w0rd!",
       "email": "biseso@mailinator.com",
       "id": 8
+    },
+    {
+      "name": "Dominic Holland",
+      "password": "Pa$$w0rd!",
+      "email": "pejelo@mailinator.com",
+      "id": 9
     }
   ],
   "products": [
     {
-      "name": "Uma Warner",
-      "price": "633221",
-      "category": "Rerum labore aliquam",
-      "color": "In ut est cumque deb",
-      "description": "Nam esse est eum ne",
-      "image": "https://picsum.photos/id/984/900/500",
+      "name": "Smart phone",
+      "price": "12978",
+      "category": "phone",
+      "color": "black",
+      "description": "good phone",
+      "image": "https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "id": 1
     },
     {
-      "name": "Uma Warner",
-      "price": "633221",
-      "category": "Rerum labore aliquam",
-      "color": "In ut est cumque deb",
-      "description": "Nam esse est eum ne",
-      "image": "https://picsum.photos/id/984/900/500",
+      "name": "I phone ",
+      "price": "54765",
+      "category": "phone",
+      "color": "blue",
+      "description": "best phone in market",
+      "image": "https://images.pexels.com/photos/171947/pexels-photo-171947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "id": 2
     },
     {
-      "name": "Uma Warner",
-      "price": "633221",
-      "category": "Rerum labore aliquam",
-      "color": "In ut est cumque deb",
-      "description": "Nam esse est eum ne",
-      "image": "https://picsum.photos/id/984/900/500",
+      "name": "Nike shoes",
+      "price": "76578",
+      "category": "shoes",
+      "color": "green",
+      "description": "best shoes ",
+      "image": "https://images.pexels.com/photos/1456706/pexels-photo-1456706.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "id": 3
     },
     {
-      "name": "Uma Warner",
-      "price": "636e",
-      "category": "Rerum labore aliquam",
-      "color": "In ut est cumque deb",
-      "description": "Nam esse est eum ne",
-      "image": "https://picsum.photos/id/984/900/500",
+      "name": "phone",
+      "price": "75678",
+      "category": "mobile",
+      "color": "pink",
+      "description": "good product",
+      "image": "https://images.pexels.com/photos/17077346/pexels-photo-17077346/free-photo-of-marketing-menu-businessman-man.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "id": 4
-    },
-    {
-      "name": "Uma Warner",
-      "price": "636e",
-      "category": "Rerum labore aliquam",
-      "color": "In ut est cumque deb",
-      "description": "Nam esse est eum ne",
-      "image": "https://picsum.photos/id/984/900/500",
-      "id": 5
-    },
-    {
-      "name": "Uma Warner",
-      "price": "636e",
-      "category": "Rerum labore aliquam",
-      "color": "In ut est cumque deb",
-      "description": "Nam esse est eum ne",
-      "image": "https://picsum.photos/id/984/900/500",
-      "id": 6
-    },
-    {
-      "name": "Uma Warner",
-      "price": "636e",
-      "category": "Rerum labore aliquam",
-      "color": "In ut est cumque deb",
-      "description": "Nam esse est eum ne",
-      "image": "https://picsum.photos/id/984/900/500",
-      "id": 7
-    },
-    {
-      "name": "Uma Warner",
-      "price": "636e",
-      "category": "Rerum labore aliquam",
-      "color": "In ut est cumque deb",
-      "description": "Nam esse est eum ne",
-      "image": "https://picsum.photos/id/984/900/500",
-      "id": 8
-    },
-    {
-      "name": "Uma Warner",
-      "price": "636e",
-      "category": "Rerum labore aliquam",
-      "color": "In ut est cumque deb",
-      "description": "Nam esse est eum ne",
-      "image": "https://picsum.photos/id/984/900/500",
-      "id": 9
-    },
-    {
-      "name": "Uma Warner",
-      "price": "636e",
-      "category": "Rerum labore aliquam",
-      "color": "In ut est cumque deb",
-      "description": "Nam esse est eum ne",
-      "image": "https://picsum.photos/id/984/900/500",
-      "id": 10
     }
   ]
 }

@@ -15,7 +15,7 @@ export class HomeComponent {
 
   ngOnInit():void{
     this.product.popularproduct().subscribe((data)=>{
-      console.log(data);
+  
       this.popularpro = data
     })
 

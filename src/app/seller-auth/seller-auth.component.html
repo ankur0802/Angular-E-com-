@@ -1,6 +1,6 @@
-<div class="seller-auth">
+<div class="seller-auth flex justify-center items-center">
     <div *ngIf="!showlogin"  class="sign-up">
-      <h1>Seller sign-up</h1>
+      <h1 class="text-3xl">Seller sign-up</h1>
       <form #sellerSignUp="ngForm" (ngSubmit)="signUp(sellerSignUp.value)" class="common-form">
         <input
           type="text"
@@ -31,7 +31,7 @@
     
   
     <div *ngIf="showlogin" class="login">
-      <h1>Seller Login</h1>
+      <h1 class="text-3xl">Seller Login</h1>
       <p class="error-p">{{authError}}</p>
       <form #sellerLogin="ngForm" (ngSubmit)="login(sellerLogin.value)"  class="common-form">
         <input

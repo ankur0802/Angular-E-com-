@@ -12,15 +12,15 @@ body{
     font-family: sans-serif;
 }
 
-.container{
-    margin-left: 5%;
-    margin-right: 5%;
+*{
+  margin: 0  ;
+  padding: 0 ;
 }
 .common-form {
     display: flex;
     flex-direction: column;
     width: 300px;
-    margin: auto;
+   
   }
   .form-input {
     height: 35px;
@@ -41,4 +41,4 @@ color: red;
 }
 .message-p{
   color: green;
-}
+} 

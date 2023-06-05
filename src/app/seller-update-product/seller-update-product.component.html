@@ -1,9 +1,9 @@
-<div class="add-product">
+<div class="add-product flex justify-center">
     <h1 class="text-violet-600 flex justify-center my-11 font-bold text-3xl">Update Product</h1>
     <p class="message-p">{{productMessage}}</p>
     <form #updateProduct="ngForm"
     (ngSubmit)="update(updateProduct.value)"
-     class="common-form">
+     class="common-form m-24 ">
       <input
         type="text"
         class="form-input"

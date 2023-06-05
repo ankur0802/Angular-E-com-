@@ -7,7 +7,7 @@ import { SellerService } from './services/seller.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ang_ecom';
+  title = 'ang ecom';
 
   constructor(private seller:SellerService){}
 
