@@ -21,7 +21,7 @@ export class SellerHomeComponent {
     this.list();
   }
 
-  deleteProduct(id: number) {
+  deleteProduct(id: string) {
     this.product.deleteproduct(id).subscribe((result) => {
       if (result) {
         this.productMessage = 'Product is deleted';

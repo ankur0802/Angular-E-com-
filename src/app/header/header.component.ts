@@ -1,62 +1,81 @@
 import { Component } from '@angular/core';
-import {Router} from '@angular/router'
+import { Router } from '@angular/router';
 import { product } from '../data-type';
 import { ProductService } from '../services/product.service';
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent {
+  constructor(private route: Router, private product: ProductService) {}
+  menuType: string = 'default';
+  sellerName: string = '';
+  searchResult: undefined | product[];
+  userName: string = '';
+  cartItems = 0;
 
-  constructor (private route:Router , private product:ProductService){
-
-  }
-  menuType:string = 'default';
-  sellerName:string = '';
-  searchResult :undefined | product[]
-
-  ngOnInit():void{
-    this.route.events.subscribe((val:any)=>{
-     
-      if(val.url){
-        if(localStorage.getItem('seller') && val.url.includes('seller')){
+  ngOnInit(): void {
+    this.route.events.subscribe((val: any) => {
+      if (val.url) {
+        if (localStorage.getItem('seller') && val.url.includes('seller')) {
           this.menuType = 'seller';
-          if(localStorage.getItem('seller')){
+          if (localStorage.getItem('seller')) {
             let sellerInfo = localStorage.getItem('seller');
             let sellerData = sellerInfo && JSON.parse(sellerInfo);
-            this.sellerName = sellerData.name
+            this.sellerName = sellerData.name;
           }
-        }else{
+        } else if (localStorage.getItem('user')) {
+          let userStore = localStorage.getItem('user');
+          let userData = userStore && JSON.parse(userStore);
+          this.userName = userData.name;
+          this.menuType = 'user';
+        } else {
           this.menuType = 'default';
         }
       }
-    })
-  }
-  
-  search(query:KeyboardEvent){
+    });
 
-    if(query){
-      let element = query.target as HTMLInputElement
-      this.product.searchproducts(element.value).subscribe((result)=>{
+    let cartData = localStorage.getItem('localCart');
+
+    if (cartData) {
+      let cartprod = JSON.parse(cartData);
+      this.cartItems = cartprod.length;
+    }
+
+    this.product.cartData.subscribe((items) => {
+      this.cartItems = items.length;
+    });
+  }
+
+  search(query: KeyboardEvent) {
+    if (query) {
+      let element = query.target as HTMLInputElement;
+      this.product.searchproducts(element.value).subscribe((result) => {
         this.searchResult = result;
-        
-      })
+      });
     }
   }
 
-  hidesearch(){
+  hidesearch() {
     this.searchResult = undefined;
   }
-
-  submitSearch(val:string){
-     this.route.navigate([`search/${val}`])
+  redirecttodetail(id: string) {
+    this.route.navigate([`detail/${id}`]);
   }
 
-  logout(){
+  submitSearch(val: string) {
+    this.route.navigate([`search/${val}`]);
+  }
+
+  logout() {
     localStorage.removeItem('seller');
-    this.route.navigate(['/'])
+    this.route.navigate(['/']);
   }
 
+  userlogout() {
+    localStorage.removeItem('user');
+    this.route.navigate(['/user-auth']);
+  }
 }

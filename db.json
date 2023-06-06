@@ -92,5 +92,91 @@
       "image": "https://images.pexels.com/photos/17077346/pexels-photo-17077346/free-photo-of-marketing-menu-businessman-man.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "id": 4
     }
+  ],
+  "users": [
+    {
+      "name": "Alfreda Boyle",
+      "email": "wotunujok@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 1
+    },
+    {
+      "name": "Hedy Atkinson",
+      "email": "dymynalet@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 2
+    },
+    {
+      "name": "Thaddeus Leach",
+      "email": "nagehexu@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 3
+    },
+    {
+      "name": "Bell Kerr",
+      "email": "bimonuxoh@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 4
+    },
+    {
+      "name": "Yvonne Chandler",
+      "email": "xywacar@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 5
+    },
+    {
+      "name": "Magee Miller",
+      "email": "myri@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 6
+    },
+    {
+      "name": "Melodie Carpenter",
+      "email": "cokugym@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 7
+    },
+    {
+      "name": "Isabelle Howard",
+      "email": "vapa@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 8
+    },
+    {
+      "name": "David Ware",
+      "email": "paledal@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 9
+    },
+    {
+      "name": "Lysandra Robles",
+      "email": "nedymo@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 10
+    },
+    {
+      "name": "Cara Nieves",
+      "email": "haseh@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 11
+    },
+    {
+      "name": "Yvette White",
+      "email": "hihahe@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 12
+    },
+    {
+      "name": "Kato Woodard",
+      "email": "zevehynuma@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 13
+    },
+    {
+      "name": "Oliver Parrish",
+      "email": "topup@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 14
+    }
   ]
 }
