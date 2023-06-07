@@ -29,8 +29,11 @@ export class HeaderComponent {
         } else if (localStorage.getItem('user')) {
           let userStore = localStorage.getItem('user');
           let userData = userStore && JSON.parse(userStore);
-          this.userName = userData.name;
+          this.userName = userData.name || userData[0].name;
           this.menuType = 'user';
+      
+          
+          this.product.getCartList(userData.id || userData[0].id)
         } else {
           this.menuType = 'default';
         }
@@ -41,13 +44,19 @@ export class HeaderComponent {
 
     if (cartData) {
       let cartprod = JSON.parse(cartData);
+ 
+      
       this.cartItems = cartprod.length;
     }
 
+   
     this.product.cartData.subscribe((items) => {
       this.cartItems = items.length;
+    
+      
     });
   }
+  
 
   search(query: KeyboardEvent) {
     if (query) {
@@ -72,10 +81,12 @@ export class HeaderComponent {
   logout() {
     localStorage.removeItem('seller');
     this.route.navigate(['/']);
+
   }
 
   userlogout() {
     localStorage.removeItem('user');
     this.route.navigate(['/user-auth']);
+    this.product.cartData.emit([])
   }
 }

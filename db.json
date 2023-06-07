@@ -177,6 +177,384 @@
       "email": "topup@mailinator.com",
       "password": "Pa$$w0rd!",
       "id": 14
+    },
+    {
+      "name": "Casey Downs",
+      "email": "wipudidy@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 15
+    },
+    {
+      "name": "Mikayla Humphrey",
+      "email": "sowojizo@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 16
+    },
+    {
+      "name": "Ryan Tate",
+      "email": "davinyfas@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 17
+    },
+    {
+      "name": "Abbot Cobb",
+      "email": "dapoliho@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 18
+    },
+    {
+      "name": "Ali Hill",
+      "email": "nefamafy@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 19
+    },
+    {
+      "name": "Gil Beach",
+      "email": "wewu@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 20
+    }
+  ],
+  "cart": [
+    {
+      "name": "Smart phone",
+      "price": "12978",
+      "category": "phone",
+      "color": "black",
+      "description": "good phone",
+      "image": "https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 1,
+      "userId": 15,
+      "productId": 1,
+      "id": 1
+    },
+    {
+      "name": "I phone ",
+      "price": "54765",
+      "category": "phone",
+      "color": "blue",
+      "description": "best phone in market",
+      "image": "https://images.pexels.com/photos/171947/pexels-photo-171947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 11,
+      "productId": 2,
+      "userId": null,
+      "id": 2
+    },
+    {
+      "name": "Smart phone",
+      "price": "12978",
+      "category": "phone",
+      "color": "black",
+      "description": "good phone",
+      "image": "https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 5,
+      "productId": 1,
+      "userId": null,
+      "id": 3
+    },
+    {
+      "name": "I phone ",
+      "price": "54765",
+      "category": "phone",
+      "color": "blue",
+      "description": "best phone in market",
+      "image": "https://images.pexels.com/photos/171947/pexels-photo-171947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 11,
+      "productId": 2,
+      "userId": null,
+      "id": 4
+    },
+    {
+      "name": "Smart phone",
+      "price": "12978",
+      "category": "phone",
+      "color": "black",
+      "description": "good phone",
+      "image": "https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 5,
+      "productId": 1,
+      "userId": null,
+      "id": 5
+    },
+    {
+      "name": "Nike shoes",
+      "price": "76578",
+      "category": "shoes",
+      "color": "green",
+      "description": "best shoes ",
+      "image": "https://images.pexels.com/photos/1456706/pexels-photo-1456706.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 5,
+      "productId": 3,
+      "userId": null,
+      "id": 6
+    },
+    {
+      "name": "Smart phone",
+      "price": "12978",
+      "category": "phone",
+      "color": "black",
+      "description": "good phone",
+      "image": "https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 1,
+      "productId": 1,
+      "id": 7
+    },
+    {
+      "name": "Smart phone",
+      "price": "12978",
+      "category": "phone",
+      "color": "black",
+      "description": "good phone",
+      "image": "https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 1,
+      "productId": 1,
+      "id": 8
+    },
+    {
+      "name": "Smart phone",
+      "price": "12978",
+      "category": "phone",
+      "color": "black",
+      "description": "good phone",
+      "image": "https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 1,
+      "productId": 1,
+      "id": 9
+    },
+    {
+      "name": "Smart phone",
+      "price": "12978",
+      "category": "phone",
+      "color": "black",
+      "description": "good phone",
+      "image": "https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 1,
+      "productId": 1,
+      "id": 10
+    },
+    {
+      "name": "I phone ",
+      "price": "54765",
+      "category": "phone",
+      "color": "blue",
+      "description": "best phone in market",
+      "image": "https://images.pexels.com/photos/171947/pexels-photo-171947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 1,
+      "productId": 2,
+      "id": 11
+    },
+    {
+      "name": "I phone ",
+      "price": "54765",
+      "category": "phone",
+      "color": "blue",
+      "description": "best phone in market",
+      "image": "https://images.pexels.com/photos/171947/pexels-photo-171947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 1,
+      "productId": 2,
+      "id": 12
+    },
+    {
+      "name": "I phone ",
+      "price": "54765",
+      "category": "phone",
+      "color": "blue",
+      "description": "best phone in market",
+      "image": "https://images.pexels.com/photos/171947/pexels-photo-171947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 1,
+      "productId": 2,
+      "id": 13
+    },
+    {
+      "name": "I phone ",
+      "price": "54765",
+      "category": "phone",
+      "color": "blue",
+      "description": "best phone in market",
+      "image": "https://images.pexels.com/photos/171947/pexels-photo-171947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 1,
+      "productId": 2,
+      "id": 14
+    },
+    {
+      "name": "I phone ",
+      "price": "54765",
+      "category": "phone",
+      "color": "blue",
+      "description": "best phone in market",
+      "image": "https://images.pexels.com/photos/171947/pexels-photo-171947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 1,
+      "userId": 3,
+      "productId": 2,
+      "id": 15
+    },
+    {
+      "name": "I phone ",
+      "price": "54765",
+      "category": "phone",
+      "color": "blue",
+      "description": "best phone in market",
+      "image": "https://images.pexels.com/photos/171947/pexels-photo-171947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 1,
+      "userId": 3,
+      "productId": 2,
+      "id": 16
+    },
+    {
+      "name": "I phone ",
+      "price": "54765",
+      "category": "phone",
+      "color": "blue",
+      "description": "best phone in market",
+      "image": "https://images.pexels.com/photos/171947/pexels-photo-171947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 1,
+      "userId": 3,
+      "productId": 2,
+      "id": 17
+    },
+    {
+      "name": "I phone ",
+      "price": "54765",
+      "category": "phone",
+      "color": "blue",
+      "description": "best phone in market",
+      "image": "https://images.pexels.com/photos/171947/pexels-photo-171947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 1,
+      "userId": 3,
+      "productId": 2,
+      "id": 18
+    },
+    {
+      "name": "I phone ",
+      "price": "54765",
+      "category": "phone",
+      "color": "blue",
+      "description": "best phone in market",
+      "image": "https://images.pexels.com/photos/171947/pexels-photo-171947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 1,
+      "userId": 3,
+      "productId": 2,
+      "id": 19
+    },
+    {
+      "name": "I phone ",
+      "price": "54765",
+      "category": "phone",
+      "color": "blue",
+      "description": "best phone in market",
+      "image": "https://images.pexels.com/photos/171947/pexels-photo-171947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 1,
+      "userId": 3,
+      "productId": 2,
+      "id": 20
+    },
+    {
+      "name": "I phone ",
+      "price": "54765",
+      "category": "phone",
+      "color": "blue",
+      "description": "best phone in market",
+      "image": "https://images.pexels.com/photos/171947/pexels-photo-171947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 1,
+      "userId": 3,
+      "productId": 2,
+      "id": 21
+    },
+    {
+      "name": "I phone ",
+      "price": "54765",
+      "category": "phone",
+      "color": "blue",
+      "description": "best phone in market",
+      "image": "https://images.pexels.com/photos/171947/pexels-photo-171947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 1,
+      "userId": 3,
+      "productId": 2,
+      "id": 22
+    },
+    {
+      "name": "I phone ",
+      "price": "54765",
+      "category": "phone",
+      "color": "blue",
+      "description": "best phone in market",
+      "image": "https://images.pexels.com/photos/171947/pexels-photo-171947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 1,
+      "userId": 3,
+      "productId": 2,
+      "id": 23
+    },
+    {
+      "name": "Smart phone",
+      "price": "12978",
+      "category": "phone",
+      "color": "black",
+      "description": "good phone",
+      "image": "https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 1,
+      "userId": 14,
+      "productId": 1,
+      "id": 24
+    },
+    {
+      "name": "Smart phone",
+      "price": "12978",
+      "category": "phone",
+      "color": "black",
+      "description": "good phone",
+      "image": "https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 1,
+      "userId": 14,
+      "productId": 1,
+      "id": 25
+    },
+    {
+      "name": "Smart phone",
+      "price": "12978",
+      "category": "phone",
+      "color": "black",
+      "description": "good phone",
+      "image": "https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 1,
+      "userId": 14,
+      "productId": 1,
+      "id": 26
+    },
+    {
+      "name": "Smart phone",
+      "price": "12978",
+      "category": "phone",
+      "color": "black",
+      "description": "good phone",
+      "image": "https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 1,
+      "userId": 20,
+      "productId": 1,
+      "id": 27
+    },
+    {
+      "name": "Smart phone",
+      "price": "12978",
+      "category": "phone",
+      "color": "black",
+      "description": "good phone",
+      "image": "https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 1,
+      "userId": 20,
+      "productId": 1,
+      "id": 28
+    },
+    {
+      "name": "I phone ",
+      "price": "54765",
+      "category": "phone",
+      "color": "blue",
+      "description": "best phone in market",
+      "image": "https://images.pexels.com/photos/171947/pexels-photo-171947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 1,
+      "userId": 20,
+      "productId": 2,
+      "id": 29
     }
   ]
 }
