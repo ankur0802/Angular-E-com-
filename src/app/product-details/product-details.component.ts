@@ -47,12 +47,12 @@ export class ProductDetailsComponent {
           
           this.product.getCartList(userId);
           this.product.cartData.subscribe((result) => {
-            console.log(result);
+ 
             
             let item = result.filter(
-              (item: product) => productId?.toString() === item.productId?.toString()
+              (item: product) => productId?.toString()  === item.productId?.toString()
               );
-             console.log(item);
+ 
              
             
             if (item.length) {
@@ -114,14 +114,14 @@ export class ProductDetailsComponent {
       let parseduser = user && JSON.parse(user)
 
       let userId = parseduser.id || parseduser[0].id;
-     
+ 
+ 
       this.cartData && this.product.removeToCart(this.cartData.id).subscribe((result)=>{
-        console.log(result);
         if(result){
           this.product.getCartList(userId)
         }
-        
       })
+ 
     }
     
   }

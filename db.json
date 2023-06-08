@@ -53,6 +53,12 @@
       "password": "Pa$$w0rd!",
       "email": "pejelo@mailinator.com",
       "id": 9
+    },
+    {
+      "name": "Shaeleigh Ball",
+      "email": "hiqawy@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 10
     }
   ],
   "products": [
@@ -213,6 +219,30 @@
       "email": "wewu@mailinator.com",
       "password": "Pa$$w0rd!",
       "id": 20
+    },
+    {
+      "name": "Jermaine Estes",
+      "email": "modikiwat@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 21
+    },
+    {
+      "name": "Orson Mclean",
+      "email": "wabarujib@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 22
+    },
+    {
+      "name": "Jescie Rhodes",
+      "email": "koxihunyk@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 23
+    },
+    {
+      "name": "Delilah Cruz",
+      "email": "vywicubu@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "id": 24
     }
   ],
   "cart": [
@@ -555,6 +585,102 @@
       "userId": 20,
       "productId": 2,
       "id": 29
+    },
+    {
+      "name": "Nike shoes",
+      "price": "76578",
+      "category": "shoes",
+      "color": "green",
+      "description": "best shoes ",
+      "image": "https://images.pexels.com/photos/1456706/pexels-photo-1456706.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 1,
+      "userId": 21,
+      "productId": 3,
+      "id": 30
+    },
+    {
+      "name": "I phone ",
+      "price": "54765",
+      "category": "phone",
+      "color": "blue",
+      "description": "best phone in market",
+      "image": "https://images.pexels.com/photos/171947/pexels-photo-171947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 1,
+      "userId": 21,
+      "productId": 2,
+      "id": 31
+    },
+    {
+      "name": "Smart phone",
+      "price": "12978",
+      "category": "phone",
+      "color": "black",
+      "description": "good phone",
+      "image": "https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 1,
+      "userId": 21,
+      "productId": 1,
+      "id": 32
+    },
+    {
+      "name": "phone",
+      "price": "75678",
+      "category": "mobile",
+      "color": "pink",
+      "description": "good product",
+      "image": "https://images.pexels.com/photos/17077346/pexels-photo-17077346/free-photo-of-marketing-menu-businessman-man.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 20,
+      "userId": 21,
+      "productId": 4,
+      "id": 33
+    },
+    {
+      "name": "phone",
+      "price": "75678",
+      "category": "mobile",
+      "color": "pink",
+      "description": "good product",
+      "image": "https://images.pexels.com/photos/17077346/pexels-photo-17077346/free-photo-of-marketing-menu-businessman-man.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 10,
+      "userId": 22,
+      "productId": 4,
+      "id": 35
+    },
+    {
+      "name": "Smart phone",
+      "price": "12978",
+      "category": "phone",
+      "color": "black",
+      "description": "good phone",
+      "image": "https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 1,
+      "productId": 1,
+      "userId": null,
+      "id": 36
+    },
+    {
+      "name": "Smart phone",
+      "price": "12978",
+      "category": "phone",
+      "color": "black",
+      "description": "good phone",
+      "image": "https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 1,
+      "userId": 17,
+      "productId": 1,
+      "id": 37
+    },
+    {
+      "name": "Nike shoes",
+      "price": "76578",
+      "category": "shoes",
+      "color": "green",
+      "description": "best shoes ",
+      "image": "https://images.pexels.com/photos/1456706/pexels-photo-1456706.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "quantity": 1,
+      "userId": 24,
+      "productId": 3,
+      "id": 38
     }
   ]
 }

@@ -1,6 +1,6 @@
 <nav class="nav w-[100vw] flex justify-between p-[4px] mr-2">
   <h1 class="text-violet-900  "><a routerLink="/">LOGO</a></h1>
-  <div *ngIf = "menuType === 'default'" class="nav-search">
+  <div *ngIf = "menuType !== 'seller'" class="nav-search">
     <input type="text " #searchval  (keyup)="search($event)" (blur)="hidesearch()" placeholder="Search" />
     <button (click)="submitSearch(searchval.value)" >Search</button>
 
@@ -17,7 +17,7 @@
     <li><a routerLink="/"> Home </a></li>
     <li><a routerLink="/seller-auth"> Seller </a></li>
     <li><a routerLink="/user-auth"> Login/Signup </a></li>
-    <li><a routerLink="/cart"> Cart({{cartItems}}) </a></li>
+    <li><a [routerLink]="cartItems>0?'/cart':null"> Cart({{cartItems}}) </a></li>
   </ul>
 
   <ul *ngSwitchCase="'user'">
